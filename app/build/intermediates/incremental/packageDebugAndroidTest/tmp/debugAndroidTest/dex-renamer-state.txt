@@ -1,0 +1,4 @@
+#Mon Oct 26 18:34:30 MDT 2026
+base.0=/Users/ianhefflefinger/dev/Compass/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

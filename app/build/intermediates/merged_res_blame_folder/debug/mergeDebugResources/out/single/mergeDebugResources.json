@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.ian.compass.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.ian.compass.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/drawable_widget_pointer.xml.flat",
+        "source": "com.ian.compass.app-main-6:/drawable/widget_pointer.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/drawable_widget_mag_art.xml.flat",
+        "source": "com.ian.compass.app-main-6:/drawable/widget_mag_art.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/xml_compass_widget_info.xml.flat",
+        "source": "com.ian.compass.app-main-6:/xml/compass_widget_info.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/drawable_widget_mag_marker.xml.flat",
+        "source": "com.ian.compass.app-main-6:/drawable/widget_mag_marker.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/layout_widget_compass.xml.flat",
+        "source": "com.ian.compass.app-main-6:/layout/widget_compass.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.ian.compass.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/drawable_widget_dial_art.xml.flat",
+        "source": "com.ian.compass.app-main-6:/drawable/widget_dial_art.xml"
+    },
+    {
+        "merged": "com.ian.compass.app-debug-4:/drawable_widget_dial.xml.flat",
+        "source": "com.ian.compass.app-main-6:/drawable/widget_dial.xml"
+    }
+]

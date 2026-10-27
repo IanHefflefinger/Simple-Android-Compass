@@ -1,0 +1,19 @@
+R_DEF: Internal format may change without notice
+local
+color icon_bg
+drawable ic_launcher_foreground
+drawable widget_dial
+drawable widget_dial_art
+drawable widget_mag_art
+drawable widget_mag_marker
+drawable widget_pointer
+id dial
+id label_true
+id mag_marker
+id readout
+id readout_mag
+id root
+layout widget_compass
+mipmap ic_launcher
+style AppTheme
+xml compass_widget_info

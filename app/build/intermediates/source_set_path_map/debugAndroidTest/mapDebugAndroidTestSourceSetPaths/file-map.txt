@@ -1,0 +1,4 @@
+com.ian.compass.test.app-androidTest-0 /Users/ianhefflefinger/dev/Compass/app/build/generated/res/resValues/androidTest/debug
+com.ian.compass.test.app-mergeDebugAndroidTestResources-1 /Users/ianhefflefinger/dev/Compass/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.ian.compass.test.app-mergeDebugAndroidTestResources-2 /Users/ianhefflefinger/dev/Compass/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.ian.compass.test.app-debugAndroidTest-3 /Users/ianhefflefinger/dev/Compass/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
