@@ -1,0 +1,7 @@
+com.ian.compass.app-pngs-0 /Users/ianhefflefinger/dev/Compass/app/build/generated/res/pngs/debug
+com.ian.compass.app-resValues-1 /Users/ianhefflefinger/dev/Compass/app/build/generated/res/resValues/debug
+com.ian.compass.app-packageDebugResources-2 /Users/ianhefflefinger/dev/Compass/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.ian.compass.app-packageDebugResources-3 /Users/ianhefflefinger/dev/Compass/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.ian.compass.app-debug-4 /Users/ianhefflefinger/dev/Compass/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.ian.compass.app-debug-5 /Users/ianhefflefinger/dev/Compass/app/src/debug/res
+com.ian.compass.app-main-6 /Users/ianhefflefinger/dev/Compass/app/src/main/res

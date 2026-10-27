@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+
+    <!-- dial face -->
+    <path android:fillColor="#101418" android:strokeColor="#E8ECEF" android:strokeWidth="2.5"
+        android:pathData="M54,54m-46,0a46,46 0 1,1 92,0a46,46 0 1,1 -92,0" />
+
+    <!-- 30 degree ticks -->
+    <path android:strokeColor="#E8ECEF" android:strokeWidth="1.5" android:pathData="M54.0,8.0 L54.0,13.0 M77.0,14.2 L74.5,18.5 M93.8,31.0 L89.5,33.5 M100.0,54.0 L95.0,54.0 M93.8,77.0 L89.5,74.5 M77.0,93.8 L74.5,89.5 M54.0,100.0 L54.0,95.0 M31.0,93.8 L33.5,89.5 M14.2,77.0 L18.5,74.5 M8.0,54.0 L13.0,54.0 M14.2,31.0 L18.5,33.5 M31.0,14.2 L33.5,18.5" />
+
+    <!-- N (red) -->
+    <path android:strokeColor="#E53935" android:strokeWidth="2.5" android:fillColor="#00000000"
+        android:pathData="M50,30 L50,20 L58,30 L58,20" />
+    <!-- E -->
+    <path android:strokeColor="#E8ECEF" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M87,49 L79,49 L79,59 L87,59 M79,54 L85,54" />
+    <!-- S -->
+    <path android:strokeColor="#E8ECEF" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M58,78 L50,78 L50,83 L58,83 L58,88 L50,88" />
+    <!-- W -->
+    <path android:strokeColor="#E8ECEF" android:strokeWidth="2" android:fillColor="#00000000"
+        android:pathData="M21,49 L23.5,59 L25,53 L26.5,59 L29,49" />
+</vector>

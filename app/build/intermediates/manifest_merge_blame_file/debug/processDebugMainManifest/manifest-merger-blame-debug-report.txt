@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ian.compass"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:4:5-77
+11-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:4:22-74
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+12-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:5:5-89
+12-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:5:22-86
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:6:5-81
+13-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:6:22-78
+14
+15    <uses-feature
+15-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:8:5-93
+16        android:name="android.hardware.sensor.compass"
+16-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:8:19-65
+17        android:required="false" />
+17-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:8:66-90
+18
+19    <application
+19-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:10:5-50:19
+20        android:allowBackup="false"
+20-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:11:9-36
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:12:9-43
+24        android:label="Compass"
+24-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:14:9-32
+25        android:roundIcon="@mipmap/ic_launcher"
+25-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:13:9-48
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme" >
+27-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:15:9-40
+28        <activity
+28-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:17:9-25:20
+29            android:name="com.ian.compass.MainActivity"
+29-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:18:13-41
+30            android:exported="true"
+30-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:19:13-36
+31            android:screenOrientation="portrait" >
+31-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:20:13-49
+32            <intent-filter>
+32-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:21:13-24:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:22:17-69
+33-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:22:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:23:17-77
+35-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:23:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <receiver
+39-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:27:9-34:20
+40            android:name="com.ian.compass.CompassWidget"
+40-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:27:19-48
+41            android:exported="true"
+41-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:27:49-72
+42            android:label="Compass" >
+42-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:27:73-96
+43            <intent-filter>
+43-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:28:13-30:29
+44                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+44-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:29:17-84
+44-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:29:25-81
+45            </intent-filter>
+46
+47            <meta-data
+47-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:31:13-33:63
+48                android:name="android.appwidget.provider"
+48-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:32:17-58
+49                android:resource="@xml/compass_widget_info" />
+49-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:33:17-60
+50        </receiver>
+51        <receiver
+51-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:36:9-40:20
+52            android:name="com.ian.compass.BootReceiver"
+52-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:36:19-47
+53            android:exported="true" >
+53-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:36:48-71
+54            <intent-filter>
+54-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:37:13-39:29
+55                <action android:name="android.intent.action.BOOT_COMPLETED" />
+55-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:38:17-79
+55-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:38:25-76
+56            </intent-filter>
+57        </receiver>
+58
+59        <service
+59-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:42:9-49:19
+60            android:name="com.ian.compass.CompassService"
+60-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:43:13-43
+61            android:exported="false"
+61-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:44:13-37
+62            android:foregroundServiceType="specialUse" >
+62-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:45:13-55
+63            <property
+63-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:46:13-48:107
+64                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+64-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:47:17-76
+65                android:value="Keeps a live compass home-screen widget updated from the device sensors" />
+65-->/Users/ianhefflefinger/dev/Compass/app/src/main/AndroidManifest.xml:48:17-104
+66        </service>
+67    </application>
+68
+69</manifest>
